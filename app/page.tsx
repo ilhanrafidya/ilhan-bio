@@ -14,7 +14,6 @@ const PROFILE = {
   bio: "Electrical Engineering Student at University of Indonesia",
 };
 
-// TODO: replace the placeholder URLs / handles with your own.
 const LINKS: {
   label: string;
   handle: string;
@@ -22,27 +21,27 @@ const LINKS: {
   icon: ComponentType<{ className?: string }>;
 }[] = [
   {
-    label: "LinkedIn",
-    handle: "Connect professionally",
-    href: "https://www.linkedin.com/in/your-username",
-    icon: LinkedInIcon,
-  },
-  {
     label: "Instagram",
-    handle: "@your-username",
-    href: "https://www.instagram.com/your-username",
+    handle: "@ilhanrafidya",
+    href: "https://www.instagram.com/ilhanrafidya",
     icon: InstagramIcon,
   },
   {
     label: "TikTok",
-    handle: "@your-username",
-    href: "https://www.tiktok.com/@your-username",
+    handle: "@m4ndal0riann",
+    href: "https://www.tiktok.com/@m4ndal0riann",
     icon: TikTokIcon,
   },
   {
+    label: "LinkedIn",
+    handle: "Connect professionally",
+    href: "https://www.linkedin.com/in/ilhanrafidya",
+    icon: LinkedInIcon,
+  },
+  {
     label: "Email",
-    handle: "Say hello",
-    href: "mailto:you@example.com",
+    handle: "ilhanrafidyakhalid@gmail.com",
+    href: "mailto:ilhanrafidyakhalid@gmail.com",
     icon: Mail,
   },
 ];
